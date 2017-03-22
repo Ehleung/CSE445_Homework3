@@ -12,6 +12,8 @@ namespace RequiredServices
     [ServiceContract]
     public interface IService1
     {
+        [OperationContract]
+        string[] getWsOperations(string url);
 
         [OperationContract]
         string GetData(int value);
