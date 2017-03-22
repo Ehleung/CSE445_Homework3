@@ -16,7 +16,7 @@ namespace RequiredServices
         {
             List<string> tempWsOperations = new List<string>();
 
-            //testest
+            
 
             string[] wsOperations = new string[tempWsOperations.Count];
             return wsOperations;
@@ -25,6 +25,14 @@ namespace RequiredServices
         public string getReview(string vendorName)
         {
          
+        }
+
+        public string findNearestVenue(string location, string venueName)
+        {
+            string url = @"https://api.foursquare.com/v2/venues/search?near=" + location + "&query=" + venueName;
+
+
+
         }
     }
 }
