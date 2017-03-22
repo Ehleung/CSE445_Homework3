@@ -16,10 +16,15 @@ namespace RequiredServices
         {
             List<string> tempWsOperations = new List<string>();
 
-            ///asdfasdf
+            
 
             string[] wsOperations = new string[tempWsOperations.Count];
             return wsOperations;
+        }
+
+        public string getReview(string vendorName)
+        {
+
         }
 
         public string GetData(int value)
