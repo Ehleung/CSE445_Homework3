@@ -13,6 +13,9 @@ namespace RequiredServices
     public interface IService1
     {
         [OperationContract]
+        string getReview(string vendor);
+
+        [OperationContract]
         string[] getWsOperations(string url);
 
         [OperationContract]
