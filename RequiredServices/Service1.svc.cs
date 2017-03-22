@@ -16,7 +16,7 @@ namespace RequiredServices
         {
             List<string> tempWsOperations = new List<string>();
 
-            
+            //testest
 
             string[] wsOperations = new string[tempWsOperations.Count];
             return wsOperations;
