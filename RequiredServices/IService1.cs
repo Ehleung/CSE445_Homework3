@@ -15,6 +15,6 @@ namespace RequiredServices
         string getReview(string vendor);
 
         [OperationContract]
-        string[] getWsOperations(string url);
+        string findNearestVenue(string location, string venueName);
     }
 }
